@@ -1,15 +1,10 @@
 {
-  "name": "projet",
-  "version": "1.3.0",
-  "main": "index.js",
+  "name": "nouveau-projet",
+  "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "release": "standard-version"
+    "release": "bash release.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
     "standard-version": "^9.5.0"

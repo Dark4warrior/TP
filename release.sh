@@ -19,7 +19,6 @@ echo "📤 Push des commits et du tag..."
 git push origin $BRANCH
 git push origin --tags
 
-# Récupérer le tag généré automatiquement
 TAG=$(git describe --tags)
 
 echo "🏷️ Création de la release GitHub $TAG..."

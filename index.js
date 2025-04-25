@@ -1,6 +1,4 @@
-const { add, divide } = require('./src/math');
+const { multiply } = require('./src/math');
 
-console.log("2 + 3 =", add(2, 3));
-console.log("10 / 2 =", divide(10, 2));
-// modification
-// trigger
+console.log("6 × 7 =", multiply(6, 7));
+console.log("12 × 3 =", multiply(12, 3));

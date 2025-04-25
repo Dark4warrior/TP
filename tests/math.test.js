@@ -1,13 +1,17 @@
-const { add, divide } = require('../src/math');
+const { multiply } = require('../src/math');
 
-test('adds numbers', () => {
-  expect(add(2, 3)).toBe(5);
+test('multiplies positive numbers', () => {
+  expect(multiply(6, 7)).toBe(42);
 });
 
-test('divides numbers', () => {
-  expect(divide(10, 2)).toBe(5);
+test('multiplies with zero', () => {
+  expect(multiply(5, 0)).toBe(0);
 });
 
-test('throws on divide by zero', () => {
-  expect(() => divide(5, 0)).toThrow('Division by zero');
+test('multiplies negative numbers', () => {
+  expect(multiply(-4, -3)).toBe(12);
+});
+
+test('multiplies positive and negative', () => {
+  expect(multiply(5, -2)).toBe(-10);
 });
