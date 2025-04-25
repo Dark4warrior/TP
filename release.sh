@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Choisir l'outil ici : "standard-version", "release-it" ou "semantic-release"
-TOOL="standard-version"
+TOOL="semantic-release"
 
 echo "Lancement de la release avec: $TOOL"
 
